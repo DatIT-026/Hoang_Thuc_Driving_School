@@ -1,0 +1,996 @@
+@import url("http://fonts.googleapis.com/css?family=Roboto:400,700,500&amp;subset=vietnamese");
+@media (min-width: 300px) {
+    .thrv_symbol_45 .symbol-section-in {
+        text-align: left;
+        --g-regular-weight: 300;
+        --g-bold-weight: 800;
+        --tve-font-size: 14px;
+        --tve-color: rgba(255, 255, 255, 0.6);
+        padding: 40px 20px 20px !important;
+    }
+
+    .thrv_symbol_45 [data-css="tve-u-16eac533e94"] {
+        padding: 0px !important;
+    }
+
+    .thrv_symbol_45 .symbol-section-out {
+        background-color: rgb(0, 111, 17) !important;
+        background-image: none !important;
+        --background-color: rgb(0, 111, 17) !important;
+        --tve-applied-background-color: rgb(0, 111, 17) !important;
+    }
+
+    :not(#tve) .thrv_symbol_45 [data-css="tve-u-16eac5dd29c"] {
+        --tcb-applied-color: rgba(255, 255, 255, 0.33);
+        letter-spacing: 2px;
+        line-height: 1.7em !important;
+        color: rgba(255, 255, 255, 0.33) !important;
+        font-size: 11px !important;
+        padding-top: 0px !important;
+        margin-top: 0px !important;
+        padding-bottom: 0px !important;
+        margin-bottom: 0px !important;
+    }
+
+    :not(#tve) .thrv_symbol_45 .symbol-section-in p,
+    :not(#tve) .thrv_symbol_45 .symbol-section-in li,
+    :not(#tve) .thrv_symbol_45 .symbol-section-in blockquote,
+    :not(#tve) .thrv_symbol_45 .symbol-section-in address,
+    :not(#tve) .thrv_symbol_45 .symbol-section-in .tcb-plain-text,
+    :not(#tve) .thrv_symbol_45 .symbol-section-in label,
+    :not(#tve) .thrv_symbol_45 .symbol-section-in h1,
+    :not(#tve) .thrv_symbol_45 .symbol-section-in h2,
+    :not(#tve) .thrv_symbol_45 .symbol-section-in h3,
+    :not(#tve) .thrv_symbol_45 .symbol-section-in h4,
+    :not(#tve) .thrv_symbol_45 .symbol-section-in h5,
+    :not(#tve) .thrv_symbol_45 .symbol-section-in h6 {
+        color: var(--tve-color, rgba(255, 255, 255, 0.6));
+        --tcb-applied-color: rgba(255, 255, 255, 0.6);
+    }
+
+    .thrv_symbol_45 [data-css="tve-u-16ecb1169a6"] {
+        margin-left: -10px !important;
+        padding: 0px 0px 20px !important;
+    }
+
+    .thrv_symbol_45 [data-css="tve-u-16ecb116f18"] {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+        margin: 0px 0px 20px !important;
+    }
+
+    :not(#tve) .thrv_symbol_45 .symbol-section-in p,
+    :not(#tve) .thrv_symbol_45 .symbol-section-in li,
+    :not(#tve) .thrv_symbol_45 .symbol-section-in blockquote,
+    :not(#tve) .thrv_symbol_45 .symbol-section-in address,
+    :not(#tve) .thrv_symbol_45 .symbol-section-in .tcb-plain-text,
+    :not(#tve) .thrv_symbol_45 .symbol-section-in label {
+        font-size: var(--tve-font-size, 14px);
+    }
+
+    .thrv_symbol_45 [data-css="tve-u-16ecb1169a6"]>.tcb-flex-col {
+        padding-left: 10px;
+    }
+
+    .thrv_symbol_45 [data-css="tve-u-16ecc39ec63"] {
+        padding: 0px !important;
+        margin-bottom: 15px !important;
+    }
+
+    .thrv_symbol_45 [data-css="tve-u-16ef4c110f0"] {
+        max-width: 33.1994%;
+    }
+
+    .thrv_symbol_45 [data-css="tve-u-16ef4c11211"] {
+        max-width: 25.2%;
+    }
+
+    .thrv_symbol_45 [data-css="tve-u-16ef4c11338"] {
+        max-width: 23.9%;
+    }
+
+    .thrv_symbol_45 [data-css="tve-u-174d44585d6"] {
+        --tcb-local-color-f3080: var(--tcb-skin-color-0) !important;
+        --tcb-local-color-f2bba: rgba(235, 96, 45, 0.5) !important;
+        --tcb-local-color-trewq: rgba(235, 96, 45, 0.7) !important;
+        --tcb-local-color-poiuy: rgba(235, 96, 45, 0.35) !important;
+        --tcb-local-color-f83d7: rgba(235, 96, 45, 0.4) !important;
+        --tcb-local-color-frty6: rgba(235, 96, 45, 0.2) !important;
+        --tcb-local-color-flktr: rgba(235, 96, 45, 0.8) !important;
+        margin-top: 0px !important;
+        margin-bottom: 0px !important;
+    }
+
+    .thrv_symbol_45 [data-css="tve-u-174d44585d6"] .tve_social_items {
+        font-size: 8px !important;
+    }
+
+    .thrv_symbol_45 [data-css="tve-u-18665a48714"] {
+        width: 97px;
+        --tve-border-radius: 15px;
+        border-radius: 15px;
+        overflow: hidden;
+        --tve-alignment: left;
+        float: left;
+        z-index: 3;
+        position: relative;
+        margin: 0px auto 10px !important;
+    }
+
+    :not(#tve) .thrv_symbol_45 [data-css="tve-u-18665a90d62"] {
+        letter-spacing: 2px;
+        --tcb-applied-color: rgba(255, 255, 255, 0.3) !important;
+        padding-bottom: 0px !important;
+        margin-bottom: 0px !important;
+        text-transform: uppercase !important;
+        font-size: 13px !important;
+        color: rgba(255, 255, 255, 0.3) !important;
+        font-weight: var(--g-regular-weight, normal) !important;
+        padding-top: 0px !important;
+        margin-top: 0px !important;
+    }
+
+    .thrv_symbol_45:not(#tve) [data-css="tve-u-18665a90d62"] {
+        --g-regular-weight: 400;
+        --g-bold-weight: 700;
+        letter-spacing: 1px;
+        font-family: Roboto !important;
+        font-weight: var(--g-bold-weight, bold) !important;
+        color: rgb(255, 255, 255) !important;
+        --tcb-applied-color: rgb(255, 255, 255) !important;
+        --tve-applied-color: rgb(255, 255, 255) !important;
+        text-transform: capitalize !important;
+        font-size: 15px !important;
+    }
+
+    .thrv_symbol_45:not(#tve) [data-css="tve-u-18665a90d62"] strong {
+        font-weight: 700 !important;
+    }
+
+    .thrv_symbol_45 [data-css="tve-u-18665a9fde4"] {
+        max-width: 17.7%;
+    }
+
+    .thrv_symbol_45 [data-css="tve-u-18665ae8167"] {
+        padding-bottom: 5px !important;
+    }
+
+    .thrv_symbol_45 [data-css="tve-u-18665aea3ae"] {
+        margin-top: 0px !important;
+        margin-bottom: 0px !important;
+    }
+
+    .thrv_symbol_45:not(#tve) [data-css="tve-u-18665aeb62d"] {
+        --g-regular-weight: 400;
+        --g-bold-weight: 700;
+        font-family: Roboto !important;
+        font-weight: var(--g-regular-weight, normal) !important;
+        color: rgb(255, 255, 255) !important;
+        --tcb-applied-color: rgb(255, 255, 255) !important;
+        --tve-applied-color: rgb(255, 255, 255) !important;
+    }
+
+    .thrv_symbol_45 [data-css="tve-u-18665aeb62d"] strong {
+        font-weight: 700 !important;
+    }
+
+    .thrv_symbol_45 [data-css="tve-u-18665afe16a"] {
+        --tcb-local-color-icon: rgb(255, 255, 255);
+        --tcb-local-color-var: rgb(255, 255, 255);
+        --tve-icon-size: 10px;
+        font-size: 10px;
+        width: 10px;
+        height: 10px;
+        padding-top: 10px !important;
+    }
+
+    .thrv_symbol_45:not(#tve) [data-css="tve-u-18665afe16a"]> :first-child {
+        color: rgb(255, 255, 255);
+        --tve-applied-color: rgb(255, 255, 255);
+    }
+
+    .thrv_symbol_45 [data-css="tve-u-18665b071d3"] {
+        --tcb-local-color-icon: rgb(255, 255, 255);
+        --tcb-local-color-var: rgb(255, 255, 255);
+        --tve-icon-size: 10px;
+        font-size: 10px;
+        width: 10px;
+        height: 10px;
+        padding-top: 10px !important;
+    }
+
+    .thrv_symbol_45:not(#tve) [data-css="tve-u-18665b071d3"]> :first-child {
+        color: rgb(255, 255, 255);
+        --tve-applied-color: rgb(255, 255, 255);
+    }
+
+    .thrv_symbol_45 [data-css="tve-u-18665b2c530"] {
+        font-weight: 400 !important;
+    }
+
+    .thrv_symbol_45 [data-css="tve-u-18665b4ad17"] {
+        margin-top: 0px !important;
+        margin-bottom: 0px !important;
+    }
+
+    .thrv_symbol_45 [data-css="tve-u-18665b4ad1f"] {
+        padding-bottom: 10px !important;
+    }
+
+    .thrv_symbol_45:not(#tve) [data-css="tve-u-18665b4ad2f"] {
+        --g-regular-weight: 400;
+        --g-bold-weight: 700;
+        font-family: Roboto !important;
+        font-weight: var(--g-regular-weight, normal) !important;
+        color: rgb(255, 255, 255) !important;
+        --tcb-applied-color: rgb(255, 255, 255) !important;
+        --tve-applied-color: rgb(255, 255, 255) !important;
+    }
+
+    .thrv_symbol_45 [data-css="tve-u-18665b4ad2f"] strong {
+        font-weight: 700 !important;
+    }
+
+    .thrv_symbol_45 [data-css="tve-u-18665b4ad35"] {
+        padding-bottom: 10px !important;
+    }
+
+    .thrv_symbol_45 [data-css="tve-u-18665b4ad3c"] {
+        --tcb-local-color-icon: rgb(255, 129, 0);
+        --tcb-local-color-var: rgb(255, 129, 0);
+        --tve-icon-size: 20px;
+        font-size: 20px;
+        width: 20px;
+        height: 20px;
+        padding-top: 5px !important;
+    }
+
+    .thrv_symbol_45:not(#tve) [data-css="tve-u-18665b4ad3c"]> :first-child {
+        color: rgb(255, 129, 0);
+        --tve-applied-color: rgb(255, 129, 0);
+    }
+
+    .thrv_symbol_45:not(#tve) [data-css="tve-u-18665b4ad43"] {
+        --g-regular-weight: 400;
+        --g-bold-weight: 700;
+        font-family: Roboto !important;
+        font-weight: var(--g-regular-weight, normal) !important;
+        color: rgb(255, 255, 255) !important;
+        --tcb-applied-color: rgb(255, 255, 255) !important;
+        --tve-applied-color: rgb(255, 255, 255) !important;
+    }
+
+    .thrv_symbol_45 [data-css="tve-u-18665b4ad43"] strong {
+        font-weight: 700 !important;
+    }
+
+    .thrv_symbol_45:not(#tve) [data-css="tve-u-18665b4ad57"] {
+        color: inherit !important;
+        --tve-applied-color: inherit !important;
+        font-weight: var(--g-bold-weight, bold) !important;
+    }
+
+    .thrv_symbol_45 [data-css="tve-u-18665b4ad63"] {
+        padding-bottom: 10px !important;
+    }
+
+    .thrv_symbol_45 [data-css="tve-u-18665b4ad69"] {
+        --tcb-local-color-icon: rgb(255, 129, 0);
+        --tcb-local-color-var: rgb(255, 129, 0);
+        --tve-icon-size: 20px;
+        font-size: 20px;
+        width: 20px;
+        height: 20px;
+        padding-top: 5px !important;
+    }
+
+    .thrv_symbol_45:not(#tve) [data-css="tve-u-18665b4ad69"]> :first-child {
+        color: rgb(255, 129, 0);
+        --tve-applied-color: rgb(255, 129, 0);
+    }
+
+    .thrv_symbol_45:not(#tve) [data-css="tve-u-18665b4ad70"] {
+        --g-regular-weight: 400;
+        --g-bold-weight: 700;
+        font-family: Roboto !important;
+        font-weight: var(--g-regular-weight, normal) !important;
+        color: rgb(255, 255, 255) !important;
+        --tcb-applied-color: rgb(255, 255, 255) !important;
+        --tve-applied-color: rgb(255, 255, 255) !important;
+    }
+
+    .thrv_symbol_45 [data-css="tve-u-18665b4ad70"] strong {
+        font-weight: 700 !important;
+    }
+
+    .thrv_symbol_45:not(#tve) [data-css="tve-u-18665b7c76c"] {
+        color: inherit !important;
+        --tve-applied-color: inherit !important;
+    }
+
+    .thrv_symbol_45:not(#tve) [data-css="tve-u-18665b824fc"] {
+        color: inherit !important;
+        --tve-applied-color: inherit !important;
+    }
+
+    .thrv_symbol_45 [data-css="tve-u-18665b88e48"] {
+        margin-top: 0px !important;
+        margin-bottom: 0px !important;
+    }
+
+    .thrv_symbol_45 [data-css="tve-u-18665b88e51"] {
+        padding-bottom: 5px !important;
+    }
+
+    .thrv_symbol_45 [data-css="tve-u-18665b88e58"] {
+        --tcb-local-color-icon: rgb(255, 255, 255);
+        --tcb-local-color-var: rgb(255, 255, 255);
+        --tve-icon-size: 10px;
+        font-size: 10px;
+        width: 10px;
+        height: 10px;
+        padding-top: 10px !important;
+    }
+
+    .thrv_symbol_45:not(#tve) [data-css="tve-u-18665b88e58"]> :first-child {
+        color: rgb(255, 255, 255);
+        --tve-applied-color: rgb(255, 255, 255);
+    }
+
+    .thrv_symbol_45:not(#tve) [data-css="tve-u-18665b88e5f"] {
+        --g-regular-weight: 400;
+        --g-bold-weight: 700;
+        font-family: Roboto !important;
+        font-weight: var(--g-regular-weight, normal) !important;
+        color: rgb(255, 255, 255) !important;
+        --tcb-applied-color: rgb(255, 255, 255) !important;
+        --tve-applied-color: rgb(255, 255, 255) !important;
+    }
+
+    .thrv_symbol_45 [data-css="tve-u-18665b88e5f"] strong {
+        font-weight: 700 !important;
+    }
+
+    .thrv_symbol_45:not(#tve) [data-css="tve-u-18665b88e68"] {
+        color: inherit !important;
+        --tve-applied-color: inherit !important;
+    }
+
+    .thrv_symbol_45 [data-css="tve-u-18665b88e6e"] {
+        padding-bottom: 5px !important;
+    }
+
+    .thrv_symbol_45 [data-css="tve-u-18665b88e75"] {
+        --tcb-local-color-icon: rgb(255, 255, 255);
+        --tcb-local-color-var: rgb(255, 255, 255);
+        --tve-icon-size: 10px;
+        font-size: 10px;
+        width: 10px;
+        height: 10px;
+        padding-top: 10px !important;
+    }
+
+    .thrv_symbol_45:not(#tve) [data-css="tve-u-18665b88e75"]> :first-child {
+        color: rgb(255, 255, 255);
+        --tve-applied-color: rgb(255, 255, 255);
+    }
+
+    .thrv_symbol_45:not(#tve) [data-css="tve-u-18665b88e7d"] {
+        --g-regular-weight: 400;
+        --g-bold-weight: 700;
+        font-family: Roboto !important;
+        font-weight: var(--g-regular-weight, normal) !important;
+        color: rgb(255, 255, 255) !important;
+        --tcb-applied-color: rgb(255, 255, 255) !important;
+        --tve-applied-color: rgb(255, 255, 255) !important;
+    }
+
+    .thrv_symbol_45 [data-css="tve-u-18665b88e7d"] strong {
+        font-weight: 700 !important;
+    }
+
+    .thrv_symbol_45 [data-css="tve-u-18665b88e92"] {
+        font-weight: 400 !important;
+    }
+
+    .thrv_symbol_45 [data-css="tve-u-18665b88e98"] {
+        padding-bottom: 5px !important;
+    }
+
+    .thrv_symbol_45 [data-css="tve-u-18665b88ea0"] {
+        --tcb-local-color-icon: rgb(255, 255, 255);
+        --tcb-local-color-var: rgb(255, 255, 255);
+        --tve-icon-size: 10px;
+        font-size: 10px;
+        width: 10px;
+        height: 10px;
+        padding-top: 10px !important;
+    }
+
+    .thrv_symbol_45:not(#tve) [data-css="tve-u-18665b88ea0"]> :first-child {
+        color: rgb(255, 255, 255);
+        --tve-applied-color: rgb(255, 255, 255);
+    }
+
+    .thrv_symbol_45:not(#tve) [data-css="tve-u-18665b88ea7"] {
+        --g-regular-weight: 400;
+        --g-bold-weight: 700;
+        font-family: Roboto !important;
+        font-weight: var(--g-regular-weight, normal) !important;
+        color: rgb(255, 255, 255) !important;
+        --tcb-applied-color: rgb(255, 255, 255) !important;
+        --tve-applied-color: rgb(255, 255, 255) !important;
+    }
+
+    .thrv_symbol_45 [data-css="tve-u-18665b88ea7"] strong {
+        font-weight: 700 !important;
+    }
+
+    .thrv_symbol_45 [data-css="tve-u-18665b9b1ae"] {
+        --tcb-local-color-icon: rgb(255, 255, 255);
+        --tcb-local-color-var: rgb(255, 255, 255);
+        --tve-icon-size: 10px;
+        font-size: 10px;
+        width: 10px;
+        height: 10px;
+        padding-top: 10px !important;
+    }
+
+    .thrv_symbol_45:not(#tve) [data-css="tve-u-18665b9b1ae"]> :first-child {
+        color: rgb(255, 255, 255);
+        --tve-applied-color: rgb(255, 255, 255);
+    }
+
+    .thrv_symbol_45 [data-css="tve-u-18665b9b40c"] {
+        --tcb-local-color-icon: rgb(255, 255, 255);
+        --tcb-local-color-var: rgb(255, 255, 255);
+        --tve-icon-size: 10px;
+        font-size: 10px;
+        width: 10px;
+        height: 10px;
+        padding-top: 10px !important;
+    }
+
+    .thrv_symbol_45:not(#tve) [data-css="tve-u-18665b9b40c"]> :first-child {
+        color: rgb(255, 255, 255);
+        --tve-applied-color: rgb(255, 255, 255);
+    }
+
+    .thrv_symbol_45 [data-css="tve-u-18665b9b4ff"] {
+        --tcb-local-color-icon: rgb(255, 255, 255);
+        --tcb-local-color-var: rgb(255, 255, 255);
+        --tve-icon-size: 10px;
+        font-size: 10px;
+        width: 10px;
+        height: 10px;
+        padding-top: 10px !important;
+    }
+
+    .thrv_symbol_45:not(#tve) [data-css="tve-u-18665b9b4ff"]> :first-child {
+        color: rgb(255, 255, 255);
+        --tve-applied-color: rgb(255, 255, 255);
+    }
+
+    .thrv_symbol_45 [data-css="tve-u-18665b9ffff"] {
+        --tcb-local-color-icon: rgb(255, 255, 255);
+        --tcb-local-color-var: rgb(255, 255, 255);
+        --tve-icon-size: 10px;
+        font-size: 10px;
+        width: 10px;
+        height: 10px;
+        padding-top: 10px !important;
+    }
+
+    .thrv_symbol_45:not(#tve) [data-css="tve-u-18665b9ffff"]> :first-child {
+        color: rgb(255, 255, 255);
+        --tve-applied-color: rgb(255, 255, 255);
+    }
+
+    .thrv_symbol_45 [data-css="tve-u-18665ba0101"] {
+        --tcb-local-color-icon: rgb(255, 255, 255);
+        --tcb-local-color-var: rgb(255, 255, 255);
+        --tve-icon-size: 10px;
+        font-size: 10px;
+        width: 10px;
+        height: 10px;
+        padding-top: 10px !important;
+    }
+
+    .thrv_symbol_45:not(#tve) [data-css="tve-u-18665ba0101"]> :first-child {
+        color: rgb(255, 255, 255);
+        --tve-applied-color: rgb(255, 255, 255);
+    }
+
+    .thrv_symbol_45 [data-css="tve-u-18665ba58d7"] {
+        --tcb-local-color-icon: rgb(255, 255, 255);
+        --tcb-local-color-var: rgb(255, 255, 255);
+        --tve-icon-size: 10px;
+        font-size: 10px;
+        width: 10px;
+        height: 10px;
+        padding-top: 10px !important;
+    }
+
+    .thrv_symbol_45:not(#tve) [data-css="tve-u-18665ba58d7"]> :first-child {
+        color: rgb(255, 255, 255);
+        --tve-applied-color: rgb(255, 255, 255);
+    }
+
+    .thrv_symbol_45 [data-css="tve-u-18665baf196"] {
+        margin-top: 0px !important;
+        margin-bottom: 0px !important;
+    }
+
+    .thrv_symbol_45 [data-css="tve-u-18665baf1a1"] {
+        padding-bottom: 5px !important;
+    }
+
+    .thrv_symbol_45 [data-css="tve-u-18665baf1a7"] {
+        --tcb-local-color-icon: rgb(255, 255, 255);
+        --tcb-local-color-var: rgb(255, 255, 255);
+        --tve-icon-size: 10px;
+        font-size: 10px;
+        width: 10px;
+        height: 10px;
+        padding-top: 10px !important;
+    }
+
+    .thrv_symbol_45:not(#tve) [data-css="tve-u-18665baf1a7"]> :first-child {
+        color: rgb(255, 255, 255);
+        --tve-applied-color: rgb(255, 255, 255);
+    }
+
+    .thrv_symbol_45:not(#tve) [data-css="tve-u-18665baf1af"] {
+        --g-regular-weight: 400;
+        --g-bold-weight: 700;
+        font-family: Roboto !important;
+        font-weight: var(--g-regular-weight, normal) !important;
+        color: rgb(255, 255, 255) !important;
+        --tcb-applied-color: rgb(255, 255, 255) !important;
+        --tve-applied-color: rgb(255, 255, 255) !important;
+    }
+
+    .thrv_symbol_45 [data-css="tve-u-18665baf1af"] strong {
+        font-weight: 700 !important;
+    }
+
+    .thrv_symbol_45:not(#tve) [data-css="tve-u-18665baf1b7"] {
+        color: inherit !important;
+        --tve-applied-color: inherit !important;
+    }
+
+    .thrv_symbol_45 [data-css="tve-u-18665baf1bd"] {
+        padding-bottom: 5px !important;
+    }
+
+    .thrv_symbol_45 [data-css="tve-u-18665baf1c6"] {
+        --tcb-local-color-icon: rgb(255, 255, 255);
+        --tcb-local-color-var: rgb(255, 255, 255);
+        --tve-icon-size: 10px;
+        font-size: 10px;
+        width: 10px;
+        height: 10px;
+        padding-top: 10px !important;
+    }
+
+    .thrv_symbol_45:not(#tve) [data-css="tve-u-18665baf1c6"]> :first-child {
+        color: rgb(255, 255, 255);
+        --tve-applied-color: rgb(255, 255, 255);
+    }
+
+    .thrv_symbol_45:not(#tve) [data-css="tve-u-18665baf1cd"] {
+        --g-regular-weight: 400;
+        --g-bold-weight: 700;
+        font-family: Roboto !important;
+        font-weight: var(--g-regular-weight, normal) !important;
+        color: rgb(255, 255, 255) !important;
+        --tcb-applied-color: rgb(255, 255, 255) !important;
+        --tve-applied-color: rgb(255, 255, 255) !important;
+    }
+
+    .thrv_symbol_45 [data-css="tve-u-18665baf1cd"] strong {
+        font-weight: 700 !important;
+    }
+
+    .thrv_symbol_45:not(#tve) [data-css="tve-u-18665baf1d4"] {
+        color: inherit !important;
+        --tve-applied-color: inherit !important;
+    }
+
+    .thrv_symbol_45 [data-css="tve-u-18665baf1db"] {
+        font-weight: 400 !important;
+    }
+
+    .thrv_symbol_45 [data-css="tve-u-18665baf1e1"] {
+        padding-bottom: 5px !important;
+    }
+
+    .thrv_symbol_45 [data-css="tve-u-18665baf1e9"] {
+        --tcb-local-color-icon: rgb(255, 255, 255);
+        --tcb-local-color-var: rgb(255, 255, 255);
+        --tve-icon-size: 10px;
+        font-size: 10px;
+        width: 10px;
+        height: 10px;
+        padding-top: 10px !important;
+    }
+
+    .thrv_symbol_45:not(#tve) [data-css="tve-u-18665baf1e9"]> :first-child {
+        color: rgb(255, 255, 255);
+        --tve-applied-color: rgb(255, 255, 255);
+    }
+
+    .thrv_symbol_45:not(#tve) [data-css="tve-u-18665baf1f1"] {
+        --g-regular-weight: 400;
+        --g-bold-weight: 700;
+        font-family: Roboto !important;
+        font-weight: var(--g-regular-weight, normal) !important;
+        color: rgb(255, 255, 255) !important;
+        --tcb-applied-color: rgb(255, 255, 255) !important;
+        --tve-applied-color: rgb(255, 255, 255) !important;
+    }
+
+    .thrv_symbol_45 [data-css="tve-u-18665baf1f1"] strong {
+        font-weight: 700 !important;
+    }
+
+    .thrv_symbol_45:not(#tve) [data-css="tve-u-18665baf1f7"] {
+        color: inherit !important;
+        --tve-applied-color: inherit !important;
+    }
+
+    .thrv_symbol_45 [data-css="tve-u-174d44585d6"] .tve_social_items .tve_s_item {
+        display: inline-block;
+    }
+
+    .thrv_symbol_45 [data-css="tve-u-187d5d8e3c5"] {
+        margin-top: 10px !important;
+        margin-bottom: 0px !important;
+    }
+
+    .thrv_symbol_45 [data-css="tve-u-1883edc9560"] {
+        --tcb-local-color-icon: rgb(255, 255, 255);
+        --tcb-local-color-var: rgb(255, 255, 255);
+        --tve-icon-size: 10px;
+        font-size: 10px;
+        width: 10px;
+        height: 10px;
+        padding-top: 10px !important;
+    }
+
+    .thrv_symbol_45:not(#tve) [data-css="tve-u-1883edc9560"]> :first-child {
+        color: rgb(255, 255, 255);
+        --tve-applied-color: rgb(255, 255, 255);
+    }
+
+    .thrv_symbol_45:not(#tve) [data-css="tve-u-1883edd1182"] {
+        color: inherit !important;
+        --tve-applied-color: inherit !important;
+    }
+
+    .thrv_symbol_45:not(#tve) [data-css="tve-u-18a370c01d6"] {
+        color: inherit !important;
+        --tve-applied-color: inherit !important;
+    }
+
+    .thrv_symbol_45 [data-css="tve-u-18a463f7384"] {
+        --tcb-local-color-icon: rgb(255, 129, 0);
+        --tcb-local-color-var: rgb(255, 129, 0);
+        --tve-icon-size: 20px;
+        font-size: 20px;
+        width: 20px;
+        height: 20px;
+        padding-top: 5px !important;
+    }
+
+    .thrv_symbol_45:not(#tve) [data-css="tve-u-18a463f7384"]> :first-child {
+        color: rgb(255, 129, 0);
+        --tve-applied-color: rgb(255, 129, 0);
+    }
+
+    .thrv_symbol_45:not(#tve) [data-css="tve-u-18a464325ad"] {
+        color: rgb(255, 255, 255) !important;
+        --tcb-applied-color: rgb(255, 255, 255) !important;
+        --tve-applied-color: rgb(255, 255, 255) !important;
+        font-weight: var(--g-bold-weight, bold) !important;
+        padding-bottom: 0px !important;
+        margin-bottom: 0px !important;
+        padding-top: 0px !important;
+        margin-top: 0px !important;
+    }
+
+    .thrv_symbol_45:not(#tve) [data-css="tve-u-19159acab2a"] {
+        color: rgb(255, 255, 255) !important;
+        --tve-applied-color: rgb(255, 255, 255) !important;
+    }
+
+    .thrv_symbol_45:not(#tve) [data-css="tve-u-19159ad139d"] {
+        color: rgb(255, 255, 255) !important;
+        --tve-applied-color: rgb(255, 255, 255) !important;
+    }
+
+    .thrv_symbol_45:not(#tve) [data-css="tve-u-19159ad53e1"] {
+        color: rgb(255, 255, 255) !important;
+        --tve-applied-color: rgb(255, 255, 255) !important;
+    }
+
+    .thrv_symbol_45:not(#tve) [data-css="tve-u-19159adafcd"] {
+        color: rgb(255, 255, 255) !important;
+        --tve-applied-color: rgb(255, 255, 255) !important;
+    }
+
+    .thrv_symbol_45:not(#tve) [data-css="tve-u-19159adc447"] {
+        color: rgb(255, 255, 255) !important;
+        --tve-applied-color: rgb(255, 255, 255) !important;
+    }
+
+    .thrv_symbol_45 [data-css="tve-u-19159b88b4f"]::after {
+        clear: both;
+    }
+
+    .thrv_symbol_45 .tve_s_item[data-network="fb"][data-css="tve-u-19159cb0b08"] {
+        --tcb-local-color-style-6: #3569b4;
+    }
+
+    .thrv_symbol_45 [data-css="tve-u-19159cb0b10"] {
+        font-size: 8px !important;
+    }
+
+    .thrv_symbol_45 .tve_s_item[data-network="yt"][data-css="tve-u-19159cb0b17"] {
+        --tcb-local-color-style-6: #ec162c;
+    }
+
+    .thrv_symbol_45 [data-css="tve-u-19159cb0b1d"] {
+        font-size: 8px !important;
+    }
+
+    .thrv_symbol_45 .tve_s_item[data-network="in"][data-css="tve-u-19159cb0b24"] {
+        --tcb-local-color-style-6: #0177b5;
+    }
+
+    .thrv_symbol_45 [data-css="tve-u-19159cb0b2a"] {
+        font-size: 8px !important;
+    }
+
+    .thrv_symbol_45 .tve_s_item[data-network="ig"][data-css="tve-u-19159cb0b30"] {
+        --tcb-local-color-style-6: #171716;
+    }
+
+    .thrv_symbol_45 [data-css="tve-u-19159cb0b36"] {
+        font-size: 8px !important;
+    }
+
+    .thrv_symbol_45 [data-css="tve-u-19159cb0b42"] {
+        font-size: 8px !important;
+    }
+
+    .thrv_symbol_45 [data-css="tve-u-19159cb0b4e"] {
+        font-size: 8px !important;
+    }
+
+    .thrv_symbol_45:not(#tve) .thrv_social_follow .tve_social_items [data-css="tve-u-19159cb0b54"] {
+        background-image: none !important;
+        --background-image: none !important;
+        --tve-applied-background-image: none !important;
+        background-color: rgb(0, 156, 255) !important;
+        --background-color: rgb(0, 156, 255) !important;
+        --tve-applied-background-color: rgb(0, 156, 255) !important;
+    }
+
+    .thrv_symbol_45:not(#tve) [data-css="tve-u-19159cb0b54"] svg.tcb-icon,
+    .thrv_symbol_45:not(#tve) [data-css="tve-u-19159cb0b54"] .tve_s_icon .tve_sc_icon {
+        color: rgb(255, 255, 255);
+        --tve-applied-color: rgb(255, 255, 255);
+    }
+
+    .thrv_symbol_45 [data-css="tve-u-19159cb0b5a"] {
+        font-size: 8px !important;
+    }
+
+    .thrv_symbol_45:not(#tve) .thrv_social_follow .tve_social_items [data-css="tve-u-19159cb0b61"] {
+        background-image: none !important;
+        --background-image: none !important;
+        --tve-applied-background-image: none !important;
+        background-color: rgb(0, 156, 255) !important;
+        --background-color: rgb(0, 156, 255) !important;
+        --tve-applied-background-color: rgb(0, 156, 255) !important;
+    }
+
+    .thrv_symbol_45:not(#tve) [data-css="tve-u-19159cb0b61"] svg.tcb-icon,
+    .thrv_symbol_45:not(#tve) [data-css="tve-u-19159cb0b61"] .tve_s_icon .tve_sc_icon {
+        color: rgb(255, 255, 255);
+        --tve-applied-color: rgb(255, 255, 255);
+    }
+
+    .thrv_symbol_45 [data-css="tve-u-19159cb0b66"] {
+        font-size: 8px !important;
+    }
+
+    .thrv_symbol_45:not(#tve) .thrv_social_follow .tve_social_items [data-css="tve-u-19159cb3708"] {
+        background-image: none !important;
+        --background-image: none !important;
+        --tve-applied-background-image: none !important;
+        background-color: rgb(0, 156, 255) !important;
+        --background-color: rgb(0, 156, 255) !important;
+        --tve-applied-background-color: rgb(0, 156, 255) !important;
+    }
+
+    .thrv_symbol_45:not(#tve) [data-css="tve-u-19159cb3708"] svg.tcb-icon,
+    .thrv_symbol_45:not(#tve) [data-css="tve-u-19159cb3708"] .tve_s_icon .tve_sc_icon {
+        color: rgb(255, 255, 255);
+        --tve-applied-color: rgb(255, 255, 255);
+    }
+
+    .thrv_symbol_45 [data-css="tve-u-19159cb3712"] {
+        font-size: 8px !important;
+    }
+
+    .thrv_symbol_45:not(#tve) [data-css="tve-u-19159cbc20d"] {
+        color: rgb(255, 255, 255) !important;
+        --tcb-applied-color: rgb(255, 255, 255) !important;
+        --tve-applied-color: rgb(255, 255, 255) !important;
+        font-weight: var(--g-bold-weight, bold) !important;
+        padding-bottom: 0px !important;
+        margin-bottom: 0px !important;
+        padding-top: 0px !important;
+        margin-top: 0px !important;
+        font-size: 16px !important;
+    }
+}
+
+@media (max-width: 1023px) {
+    .thrv_symbol_45 [data-css="tve-u-16ecc39ec63"] {
+        margin-bottom: 15px !important;
+    }
+
+    .thrv_symbol_45 [data-css="tve-u-16ecc3a3a49"] {
+        padding-top: 0px !important;
+    }
+
+    .thrv_symbol_45 [data-css="tve-u-16ecb1169a6"] {
+        padding-bottom: 15px !important;
+        flex-wrap: wrap !important;
+    }
+
+    .thrv_symbol_45 [data-css="tve-u-16ecb116f18"] {
+        margin-bottom: 15px !important;
+    }
+
+    .thrv_symbol_45 [data-css="tve-u-16ecb1169a6"]>.tcb-flex-col {
+        flex-basis: 311px !important;
+    }
+
+    .thrv_symbol_45 [data-css="tve-u-16ecc3abe12"] {
+        margin-bottom: 30px !important;
+    }
+
+    .thrv_symbol_45 [data-css="tve-u-17053db9f59"] {
+        margin-bottom: 30px !important;
+    }
+
+    .thrv_symbol_45 .symbol-section-in {
+        padding: 40px 40px 20px !important;
+    }
+
+    .thrv_symbol_45 [data-css="tve-u-18665ae8167"] {
+        padding-bottom: 5px !important;
+    }
+
+    .thrv_symbol_45 [data-css="tve-u-18665b4ad1f"] {
+        padding-bottom: 5px !important;
+    }
+
+    .thrv_symbol_45 [data-css="tve-u-18665b4ad35"] {
+        padding-bottom: 5px !important;
+    }
+
+    .thrv_symbol_45 [data-css="tve-u-18665b4ad63"] {
+        padding-bottom: 5px !important;
+    }
+
+    .thrv_symbol_45 [data-css="tve-u-18665b88e51"] {
+        padding-bottom: 5px !important;
+    }
+
+    .thrv_symbol_45 [data-css="tve-u-18665b88e6e"] {
+        padding-bottom: 5px !important;
+    }
+
+    .thrv_symbol_45 [data-css="tve-u-18665b88e98"] {
+        padding-bottom: 5px !important;
+    }
+
+    .thrv_symbol_45 [data-css="tve-u-18665baf1a1"] {
+        padding-bottom: 5px !important;
+    }
+
+    .thrv_symbol_45 [data-css="tve-u-18665baf1bd"] {
+        padding-bottom: 5px !important;
+    }
+
+    .thrv_symbol_45 [data-css="tve-u-18665baf1e1"] {
+        padding-bottom: 5px !important;
+    }
+}
+
+@media (max-width: 767px) {
+
+    :not(#tve) .thrv_symbol_45 .symbol-section-in p,
+    :not(#tve) .thrv_symbol_45 .symbol-section-in li,
+    :not(#tve) .thrv_symbol_45 .symbol-section-in blockquote,
+    :not(#tve) .thrv_symbol_45 .symbol-section-in address,
+    :not(#tve) .thrv_symbol_45 .symbol-section-in .tcb-plain-text,
+    :not(#tve) .thrv_symbol_45 .symbol-section-in label {
+        font-size: 14px;
+    }
+
+    :not(#tve) .thrv_symbol_45 [data-css="tve-u-16eac5dd29c"] {
+        letter-spacing: 0px;
+        font-size: 10px !important;
+    }
+
+    .thrv_symbol_45 [data-css="tve-u-16ecc3abe12"] {
+        margin-bottom: 20px !important;
+    }
+
+    .thrv_symbol_45 [data-css="tve-u-16ecc3a3a49"] {
+        padding-top: 0px !important;
+        margin-bottom: 20px !important;
+    }
+
+    .thrv_symbol_45 [data-css="tve-u-16ecb1169a6"] {
+        flex-flow: wrap !important;
+    }
+
+    .thrv_symbol_45 [data-css="tve-u-16ecc39ec63"] {
+        margin-top: 0px !important;
+        margin-bottom: 10px !important;
+    }
+
+    .thrv_symbol_45 [data-css="tve-u-16ecb1169a6"]>.tcb-flex-col {
+        flex-basis: 257px !important;
+    }
+
+    .thrv_symbol_45 [data-css="tve-u-17053db9f59"] {
+        margin-bottom: 20px !important;
+    }
+
+    .thrv_symbol_45 .symbol-section-in {
+        padding: 20px !important;
+    }
+
+    :not(#tve) .thrv_symbol_45 [data-css="tve-u-18665a90d62"] {
+        font-size: 12px !important;
+        color: rgba(255, 255, 255, 0.3) !important;
+        --tcb-applied-color: rgba(255, 255, 255, 0.3) !important;
+    }
+
+    .thrv_symbol_45:not(#tve) [data-css="tve-u-18665a90d62"] {
+        --g-regular-weight: 400;
+        --g-bold-weight: 700;
+        font-family: Roboto !important;
+        color: rgb(255, 255, 255) !important;
+        --tcb-applied-color: rgb(255, 255, 255) !important;
+        --tve-applied-color: rgb(255, 255, 255) !important;
+        font-size: 16px !important;
+    }
+
+    .thrv_symbol_45:not(#tve) [data-css="tve-u-18665a90d62"] strong {
+        font-weight: 700 !important;
+    }
+
+    .thrv_symbol_45 [data-css="tve-u-18665a48714"] {
+        width: 295px;
+    }
+
+    .thrv_symbol_45 [data-css="tve-u-18665b4ad3c"] {
+        padding-left: 0px !important;
+    }
+
+    .thrv_symbol_45 [data-css="tve-u-18665b4ad69"] {
+        padding-left: 0px !important;
+    }
+
+    .thrv_symbol_45 [data-css="tve-u-18a463f7384"] {
+        padding-left: 0px !important;
+    }
+}

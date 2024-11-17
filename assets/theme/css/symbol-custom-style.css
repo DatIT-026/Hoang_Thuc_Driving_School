@@ -1,0 +1,160 @@
+@media (min-width: 300px) {
+    .thrv_symbol_127 [data-css="tve-u-16eff063edc"] {
+        padding: 0px !important;
+        margin-left: -100px !important;
+    }
+
+    .thrv_symbol_127 [data-css="tve-u-16eff064345"] {
+        margin: 0px !important;
+    }
+
+    .thrv_symbol_127 [data-css="tve-u-16eff063edc"]>.tcb-flex-col>.tcb-col {
+        justify-content: center;
+    }
+
+    .thrv_symbol_127 [data-css="tve-u-16eff067282"] {
+        max-width: 32.9%;
+    }
+
+    .thrv_symbol_127 .symbol-section-out {
+        box-shadow: rgba(0, 0, 0, 0.08) 0px 2px 30px 0px;
+        background-color: rgb(255, 255, 255) !important;
+    }
+
+    .thrv_symbol_127 .symbol-section-in {
+        max-width: 100%;
+        padding: 8px 20px !important;
+    }
+
+    .thrv_symbol_127 [data-css="tve-u-17076c6b956"] {
+        --tve-alignment: right;
+        float: right;
+        z-index: 3;
+        position: relative;
+        width: 70px !important;
+        margin: 0px auto !important;
+    }
+
+    .thrv_symbol_127 {
+        margin-left: 0px !important;
+        z-index: 10 !important;
+    }
+
+    .thrv_symbol_127.tve-default-state .symbol-section-out.tve-default-state {
+        background-image: none !important;
+        --tve-applied-background-image: none !important;
+    }
+
+    .thrv_symbol_127.tve-default-state .symbol-section-in {
+        min-height: 8px !important;
+    }
+
+    .thrv_symbol_127.tve-default-state {}
+
+    .thrv_symbol_127 .symbol-section-in.tve-default-state {
+        padding-top: 10px !important;
+        padding-bottom: 10px !important;
+    }
+
+    .thrv_symbol_127.tve-default-state .thrive-symbol-shortcode.tve-default-state {
+        border-bottom: 1px solid rgb(255, 108, 45);
+    }
+
+    .thrv_symbol_127 [data-css="tve-u-191598391fb"] {
+        max-width: 67.1%;
+    }
+
+    .thrv_symbol_127.tve-default-state .symbol-section-in.tve-default-state {
+        padding-bottom: 0px !important;
+        padding-top: 5px !important;
+    }
+
+    .thrv_symbol_127 [data-css="tve-u-19243f8b7fe"]::after {
+        clear: both;
+    }
+
+    .thrv_symbol_127 [data-css="tve-u-191abf2d00c"] {
+        float: left;
+        z-index: 3;
+        position: relative;
+        --tve-alignment: left;
+    }
+
+    .thrv_symbol_127 [data-css="tve-u-191abf2d00f"]::after {
+        clear: both;
+    }
+
+    .thrv_symbol_127 [data-css="tve-u-16eff063edc"]>.tcb-flex-col {
+        padding-left: 100px;
+    }
+}
+
+@media (max-width: 1023px) {
+    .thrv_symbol_127 [data-css="tve-u-16eff063edc"] {
+        padding: 0px !important;
+        flex-flow: row !important;
+    }
+
+    .thrv_symbol_127 .symbol-section-in {
+        padding-left: 40px !important;
+        padding-right: 30px !important;
+    }
+
+    .thrv_symbol_127 [data-css="tve-u-17076c6b956"] {
+        --tve-alignment: center;
+        float: none;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        width: 350px !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .thrv_symbol_127 [data-css="tve-u-16eff063edc"] {
+        padding: 0px 5px !important;
+        flex-flow: row !important;
+        margin-left: 0px !important;
+    }
+
+    .thrv_symbol_127 [data-css="tve-u-16eff063edc"] .tcb-flex-col {
+        flex-basis: 103px !important;
+    }
+
+    .thrv_symbol_127 .symbol-section-in {
+        padding-left: 20px !important;
+        padding-right: 10px !important;
+    }
+
+    .thrv_symbol_127.tve-default-state .symbol-section-in.tve-default-state {
+        padding: 5px 0px !important;
+    }
+
+    .thrv_symbol_127 [data-css="tve-u-16eff063edc"]>.tcb-flex-col {
+        padding-left: 0px;
+    }
+
+    .thrv_symbol_127 [data-css="tve-u-17076c6b956"] {
+        width: 50px !important;
+    }
+
+    .thrv_symbol_127 [data-css="tve-u-191abf2d00c"] {
+        float: right;
+        z-index: 3;
+        position: relative;
+        --tve-alignment: right;
+        margin-bottom: 0px !important;
+        margin-top: 0px !important;
+    }
+
+    .thrv_symbol_127 [data-css="tve-u-191abf2d00f"]::after {
+        clear: both;
+    }
+
+    .thrv_symbol_127 [data-css="tve-u-191abf2e40a"] {
+        padding-right: 20px !important;
+    }
+
+    .thrv_symbol_127 [data-css="tve-u-191598391fb"] {
+        max-width: 75.6983%;
+    }
+}

@@ -1,0 +1,298 @@
+@media (min-width: 300px) {
+    .tcb-style-wrap h1 {
+        color: var(--tcb-skin-color-4);
+        --tcb-applied-color: var$(
+            --tcb-skin-color-4
+        );
+    font-family: Roboto;
+    --g-regular-weight: 400;
+    font-weight: var(--g-bold-weight, bold);
+    font-size: 35px;
+    background-color: rgba(0, 0, 0, 0);
+    font-style: normal;
+    margin: 0px;
+    padding-top: 0px;
+    padding-bottom: 24px;
+    text-decoration: rgba(10, 10, 10, 0.85);
+    text-transform: none;
+    border-left: 0px none rgba(10, 10, 10, 0.85);
+    line-height: 1.3em;
+    --tcb-typography-font-size: 35px;
+    --tcb-typography-font-family: Roboto;
+    --g-bold-weight: 700;
+}
+
+.tcb-style-wrap h2 {
+    font-family: Roboto;
+    --g-regular-weight: 400;
+    font-weight: var(--g-bold-weight, bold);
+    color: var(--tcb-skin-color-4);
+    --tcb-applied-color: var$(
+        --tcb-skin-color-4
+    );
+padding-top: 15px;
+margin-top: 0px;
+padding-bottom: 24px;
+margin-bottom: 0px;
+font-size: 25px;
+line-height: 1.4em;
+--tcb-typography-font-size: 25px;
+--tcb-typography-font-family: Roboto;
+--g-bold-weight: 700;
+}
+
+.tcb-style-wrap h3 {
+    font-family: Roboto;
+    --g-regular-weight: 400;
+    font-weight: var(--g-bold-weight, bold);
+    color: var(--tcb-skin-color-4);
+    --tcb-applied-color: var$(
+        --tcb-skin-color-4
+    );
+padding-top: 15px;
+margin-top: 0px;
+padding-bottom: 24px;
+margin-bottom: 0px;
+font-size: 23px;
+line-height: 1.4em;
+--tcb-typography-font-family: Roboto;
+--g-bold-weight: 700;
+--tcb-typography-font-size: 23px;
+}
+
+.tcb-style-wrap h4 {
+    font-family: Roboto;
+    --g-regular-weight: 400;
+    font-weight: var(--g-bold-weight, bold);
+    color: var(--tcb-skin-color-4);
+    --tcb-applied-color: var$(
+        --tcb-skin-color-4
+    );
+padding-top: 0px;
+margin-top: 0px;
+padding-bottom: 24px;
+margin-bottom: 0px;
+font-size: 21px;
+line-height: 1.4em;
+--tcb-typography-font-family: Roboto;
+--g-bold-weight: 700;
+--tcb-typography-font-size: 21px;
+}
+
+.tcb-style-wrap h5 {
+    font-family: Roboto;
+    --g-regular-weight: 400;
+    font-weight: var(--g-bold-weight, bold);
+    color: var(--tcb-skin-color-4);
+    --tcb-applied-color: var$(
+        --tcb-skin-color-4
+    );
+padding-top: 0px;
+margin-top: 0px;
+padding-bottom: 24px;
+margin-bottom: 0px;
+line-height: 1.4em;
+font-size: 19px;
+--tcb-typography-font-size: 19px;
+--tcb-typography-font-family: Roboto;
+--g-bold-weight: 700;
+}
+
+.tcb-style-wrap h6 {
+    font-family: Roboto;
+    --g-regular-weight: 400;
+    font-weight: var(--g-bold-weight, bold);
+    color: var(--tcb-skin-color-4);
+    --tcb-applied-color: var$(
+        --tcb-skin-color-4
+    );
+padding-top: 0px;
+margin-top: 0px;
+padding-bottom: 24px;
+margin-bottom: 0px;
+line-height: 1.6em;
+font-size: 18px;
+--tcb-typography-font-size: 18px;
+--tcb-typography-font-family: Roboto;
+--g-bold-weight: 500;
+}
+
+:not(.inc) .thrv_text_element a:not(.tcb-button-link):hover,
+:not(.inc) .tcb-styled-list a:hover,
+:not(.inc) .tcb-numbered-list a:hover,
+.tve-input-option-text a:hover,
+.tcb-post-content p a:hover,
+.tcb-post-content li a:hover,
+.tcb-post-content blockquote a:hover,
+.tcb-post-content pre a:hover {
+    text-decoration-line: none;
+    --eff: none;
+    text-decoration-color: var(--eff-color, currentColor);
+    color: var(--tcb-skin-color-3);
+}
+
+:not(.inc) .thrv_text_element a:not(.tcb-button-link),
+:not(.inc) .tcb-styled-list a,
+:not(.inc) .tcb-numbered-list a,
+.tve-input-option-text a,
+.tcb-post-content p a,
+.tcb-post-content li a,
+.tcb-post-content blockquote a,
+.tcb-post-content pre a {
+    font-family: var(--tve-font-family, Roboto);
+    font-weight: var(--g-regular-weight, normal);
+    --tve-font-family: Roboto;
+    --g-regular-weight: 400;
+    --g-bold-weight: 700;
+}
+
+.tcb-style-wrap pre {
+    font-family: Roboto;
+    --tcb-typography-font-family: Roboto;
+    --g-regular-weight: 400;
+    font-weight: var(--g-regular-weight, normal);
+    --g-bold-weight: 500;
+}
+
+.tcb-style-wrap ul:not([class*="menu"]),
+.tcb-style-wrap ol {
+    padding-top: 10px;
+    padding-bottom: 16px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 10px;
+}
+
+.tcb-style-wrap p {
+    font-size: 17px;
+    --tcb-typography-font-size: 17px;
+    font-family: Roboto;
+    --tcb-typography-font-family: Roboto;
+    --g-regular-weight: 400;
+    font-weight: var(--g-regular-weight, normal);
+    --g-bold-weight: 700;
+}
+
+.tcb-style-wrap li:not([class*="menu"]) {
+    font-size: 17px;
+    --tcb-typography-font-size: 17px;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+    font-family: Roboto;
+    --tcb-typography-font-family: Roboto;
+    --g-regular-weight: 400;
+    --g-bold-weight: 700;
+    font-weight: var(--g-regular-weight, normal);
+}
+
+.tcb-style-wrap blockquote {
+    border-left: 4px solid rgb(244, 117, 0);
+    --tve-border-width: 4px;
+    background-color: rgba(244, 117, 0, 0.25);
+    --background-color: rgba(244, 117, 0, 0.25);
+    --tve-applied-background-color: rgba(244, 117, 0, 0.25);
+    --tve-border-radius: 5px;
+    border-radius: 5px;
+    overflow: hidden;
+    font-family: Roboto;
+    --tcb-typography-font-family: Roboto;
+    --g-regular-weight: 400;
+    --g-bold-weight: 700;
+    font-weight: var(--g-regular-weight, normal);
+    margin-bottom: 20px;
+}
+
+:not(#tve) :not(.inc) .thrv_text_element h1 a:not(.tcb-button-link),
+:not(#tve) :not(.inc) .thrv_text_element h2 a:not(.tcb-button-link),
+:not(#tve) :not(.inc) .thrv_text_element h3 a:not(.tcb-button-link),
+:not(#tve) :not(.inc) .thrv_text_element h4 a:not(.tcb-button-link),
+:not(#tve) :not(.inc) .thrv_text_element h5 a:not(.tcb-button-link),
+:not(#tve) :not(.inc) .thrv_text_element h6 a:not(.tcb-button-link) {
+    color: inherit;
+    --tve-applied-color: inherit;
+    font-weight: var(--g-bold-weight, bold);
+    font-family: var(--tve-font-family, Roboto);
+    --tve-font-family: Roboto;
+    --g-regular-weight: 400;
+    --g-bold-weight: 700;
+}
+
+:not(.inc) .thrv_text_element p a:not(.tcb-button-link):not(.thrv-typography-link-text) {
+    font-family: var(--tve-font-family, Roboto);
+    font-weight: var(--g-regular-weight, normal);
+    --tve-font-family: Roboto;
+    --g-regular-weight: 400;
+    --g-bold-weight: 700;
+}
+}
+
+@media (max-width: 1023px) {
+    .tcb-style-wrap h1 {
+        font-size: 36px;
+        padding-bottom: 22px;
+        margin-bottom: 0px;
+    }
+
+    .tcb-style-wrap h2 {
+        padding-bottom: 22px;
+        margin-bottom: 0px;
+        font-size: 28px;
+    }
+
+    .tcb-style-wrap h3 {
+        padding-bottom: 22px;
+        margin-bottom: 0px;
+        font-size: 22px;
+    }
+
+    .tcb-style-wrap h4 {
+        padding-bottom: 22px;
+        margin-bottom: 0px;
+    }
+
+    .tcb-style-wrap h5 {
+        padding-bottom: 22px;
+        margin-bottom: 0px;
+    }
+
+    .tcb-style-wrap h6 {
+        padding-bottom: 22px;
+        margin-bottom: 0px;
+    }
+}
+
+@media (max-width: 767px) {
+    .tcb-style-wrap h1 {
+        font-size: 28px;
+        padding-bottom: 20px;
+        margin-bottom: 0px;
+    }
+
+    .tcb-style-wrap h2 {
+        font-size: 24px;
+        padding-bottom: 20px;
+        margin-bottom: 0px;
+    }
+
+    .tcb-style-wrap h3 {
+        font-size: 22px;
+        padding-bottom: 20px;
+        margin-bottom: 0px;
+    }
+
+    .tcb-style-wrap h4 {
+        font-size: 20px;
+        padding-bottom: 20px;
+        margin-bottom: 0px;
+    }
+
+    .tcb-style-wrap h5 {
+        padding-bottom: 20px;
+        margin-bottom: 0px;
+    }
+
+    .tcb-style-wrap h6 {
+        padding-bottom: 20px;
+        margin-bottom: 0px;
+    }
+}
