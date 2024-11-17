@@ -59,3 +59,71 @@
 .payment-box button:hover {
     background: #0056b3;
 }
+
+/* Training Box Styling */
+#cta.wrapper.style5 {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    flex-direction: column; /* Ensure content stacks vertically */
+    text-align: center;
+    box-sizing: border-box; /* Ensure padding is included in width/height */
+}
+
+.training-box {
+    background: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Add shadow for depth */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.training-box:hover {
+    transform: translateY(-5px); /* Slightly lift the box on hover */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Enhance shadow on hover */
+}
+
+.training-box h3 {
+    font-size: 24px;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.training-box p {
+    font-size: 14px;
+    margin: 8px 0;
+    color: #333;
+}
+
+.training-box .button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    background: #007bff;
+    color: white;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.training-box .button:hover {
+    background: #0056b3;
+    color: white;
+}
+
+/* Image Styling */
+.training-box .box-image {
+    width: 100%; /* Make the image fit the box */
+    height: 150px; /* Fixed height for consistency */
+    object-fit: cover; /* Ensure image maintains aspect ratio */
+    border-radius: 8px; /* Rounded corners for images */
+    margin-bottom: 15px; /* Spacing below the image */
+}
