@@ -1,0 +1,61 @@
+/* Section styling */
+#cta.wrapper.style5 {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    flex-direction: column; /* Ensure content stacks vertically */
+    min-height: 100vh; /* Take the full viewport height */
+    padding: 40px 50px;
+    text-align: center;
+    box-sizing: border-box; /* Ensure padding is included in width/height */
+}
+
+
+/* Payment box styling */
+.payment-box {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 400px;
+    margin: 20px auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.payment-box h3 {
+    margin-bottom: 15px;
+}
+
+.payment-box label {
+    display: block;
+    margin: 10px 0 5px;
+    text-align: left;
+}
+
+.payment-box input, .payment-box select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.payment-box button {
+    background: #33b2e8;
+    display: inline-block;
+    color: white;
+    padding: 0 1.5em;
+    line-height: 2.75em;
+    min-width: 9em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: -0.025em;
+}
+
+.payment-box button:hover {
+    background: #0056b3;
+}
