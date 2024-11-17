@@ -2674,7 +2674,7 @@ input, select, textarea {
 /* Banner */
 
 	#banner {
-		background-image: url("../../images/banner.jpg");
+		background-image: url("../../images/banner.webp");
 		background-position: center center;
 		background-size: cover;
 		height: 28em;
@@ -2774,7 +2774,7 @@ input, select, textarea {
 /* Footer */
 
 	#footer {
-		padding: 4em 0 8em 0;
+		padding: 3em 0 0em 0;
 	}
 
 		#footer a {

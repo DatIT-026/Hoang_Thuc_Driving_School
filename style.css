@@ -1,13 +1,13 @@
 /* Section styling */
 #cta.wrapper.style5 {
     display: flex;
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
-    flex-direction: column; /* Ensure content stacks vertically */
-    min-height: 100vh; /* Take the full viewport height */
-    padding: 40px 50px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 0px 50px;
     text-align: center;
-    box-sizing: border-box; /* Ensure padding is included in width/height */
+    box-sizing: border-box;
 }
 
 
@@ -20,6 +20,9 @@
     max-width: 400px;
     margin: 20px auto;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .payment-box h3 {
@@ -71,6 +74,7 @@
 }
 
 .training-box {
+    height: 100%;
     background: #ffffff;
     border: 1px solid #e0e0e0;
     border-radius: 8px;
@@ -104,8 +108,6 @@
     background: #33b2e8;
     display: inline-block;
     color: white;
-    padding: 0 1.5em;
-    line-height: 2.75em;
     min-width: 9em;
     border: none;
     border-radius: 5px;
@@ -113,6 +115,13 @@
     font-size: 16px;
     font-weight: 600;
     letter-spacing: -0.025em;
+    
+    padding: 10px 15px;
+    line-height: normal;
+    min-width: auto;
+    max-width: 100%;
+    text-align: center;
+    white-space: nowrap;
 }
 
 .training-box .button:hover {
@@ -122,9 +131,38 @@
 
 /* Image Styling */
 .training-box .box-image {
-    width: 100%; /* Make the image fit the box */
-    height: 150px; /* Fixed height for consistency */
-    object-fit: cover; /* Ensure image maintains aspect ratio */
-    border-radius: 8px; /* Rounded corners for images */
-    margin-bottom: 15px; /* Spacing below the image */
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+@media (max-width: 768px) {
+    .training-box .button {
+        font-size: 10px; /* Shrink font size for smaller screens */
+        padding: 0.4em 0.8em;
+        min-width: 5em;
+    }
+}
+@media (max-width: 768px) {
+    .row.gtr-50 {
+        display: flex;
+        flex-direction: column; /* Stack items vertically */
+        align-items: center;   /* Center align single column */
+    }
+
+    .col-3, .col-6-medium {
+        width: 100%; /* Full width for single box */
+        max-width: 90%; /* Limit max width to prevent too much stretching */
+        margin-bottom: 20px; /* Add spacing between stacked items */
+    }
+
+    .training-box {
+        max-width: 500px; /* Prevent boxes from becoming too wide */
+        min-width: 300px; /* Prevent boxes from becoming too narrow */
+        margin: 0 auto; /* Center box horizontally */
+        padding: 20px; /* Ensure adequate padding for content */
+        box-sizing: border-box; /* Include padding in box size */
+    }
 }
