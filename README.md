@@ -11,12 +11,7 @@ An application designed to manage driving school operations effectively.
 1. Clone the repo:
    ```bash
    git clone https://github.com/DatIT-026/Hoang_Thuc_Driving_School.git
-2. Install dependencies:
-    ```bash
-    npm install
-3. Start the application:
-    ```bash
-    npm start
+2. Gotta! You got this repository and it depends on your purpose. Read the [disclaimer](#disclaimer) below carefully before using it.
 
 ### Powered by FireHelper Team
 View online demo [here](https://datit-026.github.io/Hoang_Thuc_Driving_School/)
