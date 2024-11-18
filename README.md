@@ -1,11 +1,10 @@
 # Hoang Thuc Driving School
 
 ## Introduction
-An application designed to manage driving school operations effectively.
+A website designed to manage driving school operations effectively.
 
 ## Features
-- Register for driving courses.
-- Schedule classes and exams.
+- Efficient management and resolution of all matters related to driving license records, including processing, updating, and maintaining accurate data.
 
 ## How to use this?
 1. Clone the repo:
