@@ -95,16 +95,16 @@
 				<header class="major">
 					<h2>Cam kết từ Trung Tâm Tiếp Nhận Hồ Sơ Lái Xe Hoàng Thực, mọi khách hàng luôn luôn được tôn trọng
 						và tạo điều kiện để được đăng ký hồ sơ thuận lợi nhất.</h2>
-						<div style="display: flex; justify-content: space-between; line-height: 1.8;">
-							<p style="text-align: left;">
-								✅ Hỗ trợ học trả góp 0% lãi suất.
-								<br>✅ Đăng Ký - Học - Thi Tại Trường.
-							</p>
-							<p style="text-align: right;">
-								✅ Học lý thuyết online dễ dàng.
-								<br>✅ Học thực hành giờ linh động.
-							</p>
-						</div>						
+					<div style="display: flex; justify-content: space-between; line-height: 1.8;">
+						<p style="text-align: left;">
+							✅ Hỗ trợ học trả góp 0% lãi suất.
+							<br>✅ Đăng Ký - Học - Thi Tại Trường.
+						</p>
+						<p style="text-align: right;">
+							✅ Học lý thuyết online dễ dàng.
+							<br>✅ Học thực hành giờ linh động.
+						</p>
+					</div>
 				</header>
 			</div>
 		</section>
@@ -295,6 +295,35 @@
 
 					// Initial setup
 					updateSlides();
+
+					const carousel = document.querySelector('.carousel');
+					let startX, isDragging = false;
+
+					carousel.addEventListener('touchstart', (e) => {
+						startX = e.touches[0].clientX;
+						isDragging = true;
+					});
+
+					carousel.addEventListener('touchmove', (e) => {
+						if (!isDragging) return;
+						const moveX = e.touches[0].clientX;
+						const diffX = startX - moveX;
+
+						if (diffX > 50) { // Lướt sang trái
+							currentIndex = (currentIndex + 1) % slides.length;
+							updateSlides();
+							isDragging = false;
+						} else if (diffX < -50) { // Lướt sang phải
+							currentIndex = (currentIndex - 1 + slides.length) % slides.length;
+							updateSlides();
+							isDragging = false;
+						}
+					});
+
+					carousel.addEventListener('touchend', () => {
+						isDragging = false;
+					});
+
 				</script>
 			</div>
 		</section>

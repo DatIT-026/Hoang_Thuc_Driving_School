@@ -155,3 +155,17 @@ body {
     font-size: 22px;
     margin-right: 4px;
 }
+@media screen and (max-width: 768px) {
+    .nav-symbol {
+        display: none; /* Ẩn nút điều hướng */
+    }
+    #cta.wrapper.style4 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        min-height: 100vh;
+        text-align: center;
+        box-sizing: border-box;
+    }
+}
