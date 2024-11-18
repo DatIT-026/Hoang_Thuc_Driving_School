@@ -19,4 +19,6 @@ Unauthorized or unlawful use of this application is strictly prohibited. Any mis
 
 This project is licensed under the [MIT License](LICENSE).
 
-### Copyright ©️ by Trung Tâm Tiếp Nhận Hồ Sơ Lái Xe Hoàng Thực. Powered by [FireHelper Team](https://www.facebook.com/hanguyentiendat2006).
+### Copyright ©️ by Trung Tâm Tiếp Nhận Hồ Sơ Lái Xe Hoàng Thực. 
+
+Powered by [FireHelper Team](https://www.facebook.com/hanguyentiendat2006).
