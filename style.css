@@ -10,6 +10,16 @@
     box-sizing: border-box;
 }
 
+#cta.wrapper.style4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 0px 50px;
+    text-align: center;
+    box-sizing: border-box;
+}
 
 /* Payment box styling */
 .payment-box {
@@ -61,108 +71,4 @@
 
 .payment-box button:hover {
     background: #0056b3;
-}
-
-/* Training Box Styling */
-#cta.wrapper.style4 {
-    display: flex;
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
-    flex-direction: column; /* Ensure content stacks vertically */
-    text-align: center;
-    box-sizing: border-box; /* Ensure padding is included in width/height */
-}
-
-.training-box {
-    height: 100%;
-    background: #ffffff;
-    border: 1px solid #e0e0e0;
-    border-radius: 8px;
-    padding: 20px;
-    text-align: center;
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Add shadow for depth */
-    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.training-box:hover {
-    transform: translateY(-5px); /* Slightly lift the box on hover */
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Enhance shadow on hover */
-}
-
-.training-box h3 {
-    font-size: 24px;
-    color: #007bff;
-    margin-bottom: 10px;
-}
-
-.training-box p {
-    font-size: 14px;
-    margin: 8px 0;
-    color: #333;
-}
-
-.training-box .button {
-    background: #33b2e8;
-    display: inline-block;
-    color: white;
-    min-width: 9em;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-    font-weight: 600;
-    letter-spacing: -0.025em;
-    
-    padding: 10px 15px;
-    line-height: normal;
-    min-width: auto;
-    max-width: 100%;
-    text-align: center;
-    white-space: nowrap;
-}
-
-.training-box .button:hover {
-    background: #0056b3;
-    color: white;
-}
-
-/* Image Styling */
-.training-box .box-image {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-    border-radius: 8px;
-    margin-bottom: 15px;
-}
-
-@media (max-width: 768px) {
-    .training-box .button {
-        font-size: 10px; /* Shrink font size for smaller screens */
-        padding: 0.4em 0.8em;
-        min-width: 5em;
-    }
-}
-@media (max-width: 768px) {
-    .row.gtr-50 {
-        display: flex;
-        flex-direction: column; /* Stack items vertically */
-        align-items: center;   /* Center align single column */
-    }
-
-    .col-3, .col-6-medium {
-        width: 100%; /* Full width for single box */
-        max-width: 90%; /* Limit max width to prevent too much stretching */
-        margin-bottom: 20px; /* Add spacing between stacked items */
-    }
-
-    .training-box {
-        max-width: 500px; /* Prevent boxes from becoming too wide */
-        min-width: 300px; /* Prevent boxes from becoming too narrow */
-        margin: 0 auto; /* Center box horizontally */
-        padding: 20px; /* Ensure adequate padding for content */
-        box-sizing: border-box; /* Include padding in box size */
-    }
 }

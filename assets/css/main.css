@@ -2423,7 +2423,7 @@ input, select, textarea {
 		display: inline-block;
 		padding: 0 1.5em;
 		line-height: 2.75em;
-		min-width: 9em;
+		min-width: auto;
 		text-align: center;
 		text-decoration: none;
 		font-weight: 600;
@@ -3310,7 +3310,6 @@ input, select, textarea {
 			input[type="button"],
 			button,
 			.button {
-				width: 100%;
 				display: block;
 			}
 
