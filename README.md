@@ -15,10 +15,12 @@ A website designed to manage driving school operations effectively.
 You can view online demo [here](https://datit-026.github.io/Hoang_Thuc_Driving_School/).
 
 ## Copyright & Disclaimer
+### Copyright ©️ by Trung Tâm Tiếp Nhận Hồ Sơ Lái Xe Hoàng Thực. 
+
+Powered by [FireHelper Team](https://www.facebook.com/hanguyentiendat2006).
+
 Unauthorized or unlawful use of this application is strictly prohibited. Any misuse may lead to severe legal action in accordance with applicable laws and regulations.
 
 This project is licensed under the [MIT License](LICENSE).
 
-### Copyright ©️ by Trung Tâm Tiếp Nhận Hồ Sơ Lái Xe Hoàng Thực. 
 
-Powered by [FireHelper Team](https://www.facebook.com/hanguyentiendat2006).
