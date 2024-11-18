@@ -156,6 +156,17 @@ body {
     margin-right: 4px;
 }
 @media screen and (max-width: 768px) {
+    #cta.wrapper.style4 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        min-height: 100vh;
+        text-align: center;
+        box-sizing: border-box;
+    }
+}
+@media screen and (max-width: 480px) {
     .nav-symbol {
         display: none; /* Ẩn nút điều hướng */
     }
