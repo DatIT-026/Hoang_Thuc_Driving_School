@@ -13,7 +13,7 @@ A website designed to manage driving school operations effectively.
 2. Gotta! You got this repository and it depends on your purpose. Read the [disclaimer](#disclaimer) below carefully before using it.
 You can view online demo [here](https://datit-026.github.io/Hoang_Thuc_Driving_School/)
 
-## Disclaimer
+## Copyright & Disclaimer
 This project is for research purposes only. Illegal use is strictly prohibited.
 
 This project is licensed under the [MIT License](LICENSE).
