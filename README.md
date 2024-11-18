@@ -14,7 +14,7 @@ A website designed to manage driving school operations effectively.
 You can view online demo [here](https://datit-026.github.io/Hoang_Thuc_Driving_School/).
 
 ## Copyright & Disclaimer
-Unauthorized or illegal use of this application is strictly prohibited and may result in legal consequences.
+Unauthorized or unlawful use of this application is strictly prohibited. Any misuse may lead to severe legal action in accordance with applicable laws and regulations.
 
 This project is licensed under the [MIT License](LICENSE).
 
