@@ -7,11 +7,15 @@ A website designed to manage driving school operations effectively.
 - Efficient management and resolution of all matters related to driving license records, including processing, updating, and maintaining accurate data.
 
 ## How to use this?
-1. [Install git] (https://git-scm.com/downloads)
-1. Clone the repo:
+1. Install git [here](https://git-scm.com/downloads)
+
+  Also [Git Guides](https://github.com/git-guides/install-git)
+
+2. Clone the repo:
    ```bash
    git clone https://github.com/DatIT-026/Hoang_Thuc_Driving_School.git
-2. Gotta! You got this repository and it depends on your purpose. Read the [disclaimer](#copyright--disclaimer) below carefully before using it.
+   
+3. Gotta! You got this repository and it depends on your purpose. Read the [disclaimer](#copyright--disclaimer) below carefully before using it.
 
 You can view online demo [here](https://datit-026.github.io/Hoang_Thuc_Driving_School/).
 
