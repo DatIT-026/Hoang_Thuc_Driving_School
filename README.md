@@ -9,7 +9,7 @@ A website designed to manage driving school operations effectively.
 ## How to use this?
 1. [Install Git](https://git-scm.com/downloads). Also read Git Guides [here](https://github.com/git-guides/install-git).
 
-2. Clone the repo:
+2. Open terminal (Command prompt) and clone the repo:
    ```bash
    git clone https://github.com/DatIT-026/Hoang_Thuc_Driving_School.git
    
