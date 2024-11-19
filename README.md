@@ -12,11 +12,15 @@ A website designed to manage driving school operations effectively.
 Install Git [here](https://git-scm.com/downloads).
 You may also need to read [Git Guides](https://github.com/git-guides/install-git).
 
-3. Open terminal (Command prompt) and clone the repo:
+2. Clone the repo
+
+Open terminal (Command prompt) and run the command below to clone the repo:
    ```bash
    git clone https://github.com/DatIT-026/Hoang_Thuc_Driving_School.git
-   
-4. Great! Now, you have this repository and its value depends on your purpose.
+   ```
+3. Completed!
+
+Now, you have this repository and its value depends on your purpose.
    Read the [disclaimer](#copyright--disclaimer) below carefully before using it.
 
 You can view online demo [here](https://datit-026.github.io/Hoang_Thuc_Driving_School/).
