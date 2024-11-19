@@ -7,11 +7,7 @@ A website designed to manage driving school operations effectively.
 - Efficient management and resolution of all matters related to driving license records, including processing, updating, and maintaining accurate data.
 
 ## How to use this?
-1. Install git
-
-Click [here](https://git-scm.com/downloads) to install.
-
-Also [Git Guides](https://github.com/git-guides/install-git)
+1. [Install Git](https://git-scm.com/downloads). Also read Git Guides [here](https://github.com/git-guides/install-git).
 
 2. Clone the repo:
    ```bash
