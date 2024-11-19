@@ -13,7 +13,7 @@ A website designed to manage driving school operations effectively.
    ```bash
    git clone https://github.com/DatIT-026/Hoang_Thuc_Driving_School.git
    
-3. Gotta! You got this repository and it depends on your purpose. Read the [disclaimer](#copyright--disclaimer) below carefully before using it.
+3. Great! Now, you have this repository and its value depends on your purpose. Read the [disclaimer](#copyright--disclaimer) below carefully before using it.
 
 You can view online demo [here](https://datit-026.github.io/Hoang_Thuc_Driving_School/).
 
