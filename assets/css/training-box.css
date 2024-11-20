@@ -77,10 +77,11 @@ body {
 }
 
 .box-image {
-    max-width: 150px;
     height: 150px;
     object-fit: contain;
     margin-bottom: 15px;
+    border: 2px solid black;
+    border-radius: 8px;
 }
 
 .nav-symbol {
@@ -116,6 +117,7 @@ body {
     stroke-width: 2;
     fill: none;
 }
+
 #cta.section.wrapper.style4 {
     margin-top: 50px;
     margin-bottom: 50px;
@@ -155,6 +157,7 @@ body {
     font-size: 22px;
     margin-right: 4px;
 }
+
 @media screen and (max-width: 768px) {
     #cta.wrapper.style4 {
         display: flex;
@@ -166,10 +169,13 @@ body {
         box-sizing: border-box;
     }
 }
+
 @media screen and (max-width: 480px) {
     .nav-symbol {
-        display: none; /* Ẩn nút điều hướng */
+        display: none;
+        /* Ẩn nút điều hướng */
     }
+
     #cta.wrapper.style4 {
         display: flex;
         justify-content: center;
