@@ -460,7 +460,6 @@ input, select, textarea {
 				}
 
 		.row.gtr-200 {
-			margin-top: -100px;
 			margin-left: -100px;
 		}
 
@@ -703,7 +702,6 @@ input, select, textarea {
 						}
 
 				.row.gtr-200 {
-					margin-top: -80px;
 					margin-left: -80px;
 				}
 
@@ -948,7 +946,6 @@ input, select, textarea {
 						}
 
 				.row.gtr-200 {
-					margin-top: -60px;
 					margin-left: -60px;
 				}
 
@@ -1193,7 +1190,6 @@ input, select, textarea {
 						}
 
 				.row.gtr-200 {
-					margin-top: -60px;
 					margin-left: -60px;
 				}
 
@@ -1438,7 +1434,6 @@ input, select, textarea {
 						}
 
 				.row.gtr-200 {
-					margin-top: -60px;
 					margin-left: -60px;
 				}
 
@@ -1683,7 +1678,6 @@ input, select, textarea {
 						}
 
 				.row.gtr-200 {
-					margin-top: -40px;
 					margin-left: -40px;
 				}
 
@@ -1928,7 +1922,6 @@ input, select, textarea {
 						}
 
 				.row.gtr-200 {
-					margin-top: -40px;
 					margin-left: -40px;
 				}
 
@@ -2804,7 +2797,6 @@ input, select, textarea {
 			text-align: center;
 			font-size: 0.9em;
 		}
-
 /* Wide */
 
 	@media screen and (max-width: 1680px) {
