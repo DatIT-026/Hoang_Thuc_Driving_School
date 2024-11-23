@@ -10,6 +10,7 @@
 	<link rel="stylesheet" href="assets/css/main.css" />
 	<link rel="stylesheet" href="style.css">
 	<link rel="stylesheet" href="./assets/css/training-box.css">
+	<link rel="stylesheet" href="./assets/css/ad-box.css">
 </head>
 
 <body class="is-preload">
@@ -466,6 +467,45 @@
 
 	</div>
 
+	<!-- Video Ad Box -->
+	<div id="videoAd" class="video-ad-container1">
+		<div class="video-ad-header1">
+			<h4 class="video-ad-title">ㅤTrung tâm Hoàng Thực</h4>
+			<button class="close-button1">&times;</button>
+		</div>
+		<div class="video-container1">
+			<video width="100%" autoplay loop muted>
+				<source src="./assets/clip/ad.mp4" type="video/mp4">
+				Your browser does not support the video tag.
+			</video>
+		</div>
+	</div>
+
+	<script>
+		document.addEventListener('DOMContentLoaded', function () {
+			const videoAd = document.querySelector('.video-ad-container1');
+
+			// Show the ad with animation after a short delay
+			setTimeout(() => {
+				videoAd.style.display = 'block';
+				// Start animation
+				videoAd.style.animation = 'bounceIn 0.7s cubic-bezier(0.68, -0.55, 0.265, 1.55)';
+			}, 1000); // 1 second delay before showing
+
+			// Handle close button
+			const closeButton1 = document.querySelector('.close-button1');
+			if (closeButton1) {
+				closeButton1.addEventListener('click', function () {
+					videoAd.classList.add('fade-out');
+					setTimeout(() => {
+						videoAd.style.display = 'none';
+						videoAd.classList.remove('fade-out');
+					}, 500);
+				});
+			}
+		});
+	</script>
+
 	<!-- Scripts -->
 	<script src="assets/js/jquery.min.js"></script>
 	<script src="assets/js/jquery.dropotron.min.js"></script>
@@ -473,7 +513,7 @@
 	<script src="assets/js/breakpoints.min.js"></script>
 	<script src="assets/js/util.js"></script>
 	<script src="assets/js/main.js"></script>
-	<script src="assets/js/smooth-scroll.js"></script>
+	<!-- <script src="assets/js/smooth-scroll.js"></script> -->
 
 </body>
 
