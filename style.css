@@ -45,7 +45,8 @@
     text-align: left;
 }
 
-.payment-box input, .payment-box select {
+.payment-box input,
+.payment-box select {
     width: 100%;
     padding: 10px;
     margin-bottom: 1px;
@@ -55,12 +56,12 @@
 }
 
 .payment-box button {
-    background: #33b2e8;
+    background: #37c0fb;
+    background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15)), url("./assets/css/images/bg01.png");
     display: inline-block;
     color: white;
     padding: 0 1.5em;
     line-height: 2.75em;
-    min-width: 9em;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -71,4 +72,113 @@
 
 .payment-box button:hover {
     background: #0056b3;
+}
+
+/* Modal Specific Styling */
+#id01 {
+    top: 8%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    width: 100%;
+    height: 2000px;
+    padding-top: 720px;
+    padding-bottom: 500px;
+    overflow-y: auto;
+}
+
+.modal5 {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding-top: 60px;
+}
+
+.modal-content5 {
+    position: relative;
+    background: white;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 80%;
+    max-width: 450px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    animation: animatezoom 0.6s;
+}
+
+.reg-box {
+    padding: 0px;
+    max-width: 450px;
+}
+
+.reg-box h3 {
+    margin-bottom: 5px;
+}
+
+.reg-box label {
+    display: block;
+    margin: 10px 0 5px;
+    text-align: left;
+}
+
+.reg-box input,
+.reg-box select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 1px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.reg-box button {
+    background: #37c0fb;
+    background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15)), url("./assets/css/images/bg01.png");
+    display: inline-block;
+    color: #fff;
+    padding: 0 1.5em;
+    line-height: 2.75em;
+    min-width: auto;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: -0.025em;
+    text-align: center;
+}
+
+.reg-box button:hover {
+    background: #0056b3;
+}
+
+@keyframes animatezoom {
+    from {
+        transform: scale(0);
+    }
+
+    to {
+        transform: scale(1);
+    }
+}
+
+.close5 {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+.close5:hover {
+    color: red;
 }

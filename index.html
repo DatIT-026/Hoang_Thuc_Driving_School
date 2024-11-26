@@ -9,11 +9,12 @@
 	<link rel="stylesheet" href="assets/css/main.css" />
 	<link rel="stylesheet" href="style.css">
 	<link rel="stylesheet" href="./assets/css/training-box.css">
+	<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+
 </head>
 
 <body class="is-preload">
 	<div id="page-wrapper">
-
 		<!-- Header -->
 		<div id="header">
 
@@ -38,7 +39,70 @@
 			</video>
 			<header class="overlay-content">
 				<h2>Đăng ký Sớm - Thi Sớm - Nhận Bằng Sớm</h2>
-				<a href="#contact" class="button">Đăng ký Tại Đây</a>
+				<button onclick="document.getElementById('id01').style.display='block'"
+					style="width: 165px; padding: 2.5px; font-size: 13.4pt;" class="button">Đăng Ký Tại Đây</button>
+
+				<div id="id01" class="modal5">
+					<div class="container, modal-content5 animate">
+						<div class="reg-box">
+							<h3 style="color: #474747;">Đăng Ký Ngay</h3>
+							<form action="#" method="post">
+								<span onclick="document.getElementById('id01').style.display='none'" class="close5"
+									title="Close5 Modal5">&times;</span>
+								<label for="name" style="color: #474747">Họ và Tên:</label>
+								<input type="text" id="name" name="name" placeholder="Nhập họ và tên của bạn" required>
+
+								<label for="phone" style="color: #474747">Số Điện Thoại:</label>
+								<input type="tel" id="phone" name="phone" placeholder="Nhập số điện thoại của bạn"
+									required>
+
+								<label for="place" style="color: #474747">Nơi ở:</label>
+								<select id="place" name="place" placeholder="Nhập số điện thoại của bạn" required>
+									<option value="" disabled selected>Chọn nơi ở của bạn!</option>
+									<option value="thuduc">Thủ Đức</option>
+									<option value="dian">Dĩ An</option>
+									<option value="bienhoa">Biên Hoà</option>
+									<option value="others">Khác</option>
+								</select>
+
+								<label for="course" style="color: #474747">Chọn Hạng Bằng:</label>
+								<select id="course" name="course">
+									<option value="#" disabled selected>Chọn hạng bằng bạn muốn đăng ký!
+									</option>
+									<option value="a1">Hạng A1</option>
+									<option value="a2">Hạng A2</option>
+									<option value="b1">Hạng B1</option>
+									<option value="b2">Hạng B2</option>
+									<option value="a1">Hạng C</option>
+									<option value="a2">Hạng D</option>
+									<option value="b1">Hạng E</option>
+									<option value="b2">Hạng FC</option>
+								</select>
+								<p style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+										   font-style: italic; 
+										   font-size: medium; 
+										   color: red; 
+										   margin: 0.5em 0.5em 0.5em 0.5em;
+										   text-align: left;">
+									Anh/chị vui lòng kiểm lại lại số điện thoại 1 lần nữa trước khi đăng
+									ký!
+								</p>
+								<center><button type="submit" id="register_button" class="button">Đăng Ký</button></center>
+							</form>
+						</div>
+					</div>
+				</div>
+
+				<script>
+					// Get the modal
+					const modal = document.getElementById('id01');
+					// When the user clicks anywhere outside of the modal, close it
+					window.onclick = function (event) {
+						if (event.target == modal5) {
+							modal5.style.display = "none";
+						}
+					}
+				</script>
 			</header>
 		</section>
 		<style>
@@ -174,7 +238,6 @@
 							margin-bottom: 8px;
 							padding-left: 20px;
 							text-indent: -10px;
-							/* Căn chỉnh biểu tượng gọn gàng */
 							font-size: 14px;
 							line-height: 1.5;
 							color: #333;
@@ -184,7 +247,6 @@
 							content: "📍";
 							margin-right: 8px;
 							color: #007bff;
-							/* Màu sắc nổi bật cho biểu tượng */
 						}
 
 						.box.post .inner h3 {
@@ -446,8 +508,11 @@
 							Anh/chị vui lòng kiểm lại lại số điện thoại 1 lần nữa trước khi đăng
 							ký!
 						</p>
-						<center><button type="submit" id="register_button" class="button">Đăng Ký</button></center>
+						<center><button type="submit" id="main_register_button" class="button">Đăng Ký</button></center>
 						<script>
+							document.getElementById('main_register_button').addEventListener('click', function () {
+								alert('Hiện chưa thể đăng ký! Vui lòng đợi khi khác.');
+							});
 							document.getElementById('register_button').addEventListener('click', function () {
 								alert('Hiện chưa thể đăng ký! Vui lòng đợi khi khác.');
 							});
@@ -474,7 +539,7 @@
 					<li>Hotline: 036.866.5393</li>
 
 
-					<li>Design: <a href="https://datit-026.github.io/DatIT/">FireHelper Team</a></li>
+					<li>Email: <a href="mailto:sonhoang161996@gmail.com">sonhoang161996@gmail.com</a></li>
 					<br>
 					<li style="display:contents;">&copy; Copyright 2024 Trung Tâm Tiếp Nhận Hồ Sơ Lái Xe Hoàng Thực. All
 						rights reserved</li>
@@ -492,6 +557,73 @@
 	<script src="assets/js/main.js"></script>
 	<script src="assets/js/smooth-scroll.js"></script>
 
+	<!-- Reg Form Appearance -->
+	<script>
+		const button = document.querySelector('.button'); // "Đăng Ký Tại Đây" button
+		const form = document.getElementById("id01");
+		const closeButton = document.querySelector(".close5"); // Close button
+		const leftNav = document.getElementById("prevBtn"); // Left navigation button
+		const rightNav = document.getElementById("nextBtn"); // Right navigation button
+		const limit = 2900; // The top position where the form disappears
+	
+		let manuallyClosed = true; // Initially set to true to ensure it doesn't appear automatically
+	
+		// Helper function to calculate current top position
+		function getFormTopPosition() {
+			const scrollTop = window.scrollY;
+			const viewportHeight = window.innerHeight;
+			return scrollTop + viewportHeight / 2;
+		}
+	
+		// Initially hide the form and nav buttons
+		form.style.display = "none";
+		leftNav.style.display = "block";
+		rightNav.style.display = "block";
+	
+		// Show the form when the "Đăng Ký Tại Đây" button is clicked
+		button.addEventListener("click", () => {
+			manuallyClosed = false; // Reset the manually closed flag
+			form.style.display = "block"; // Show the form
+			form.style.top = `${getFormTopPosition()}px`; // Position it immediately
+			form.style.transform = "translate(-50%, -50%)"; // Center it
+		});
+	
+		// Handle form and nav button visibility during scrolling
+		window.addEventListener("scroll", () => {
+			if (manuallyClosed) return; // Do nothing if the form was closed manually or hasn't been triggered yet
+	
+			const formTopPosition = getFormTopPosition();
+	
+			if (form.style.display === "block") {
+				if (formTopPosition >= limit) {
+					form.style.display = "none"; // Hide the form when beyond 3600px
+					leftNav.style.display = "block"; // Ensure nav buttons reappear
+					rightNav.style.display = "block";
+				} else {
+					form.style.top = `${formTopPosition}px`; // Center it
+					form.style.transform = "translate(-50%, -50%)"; // Maintain centering
+					leftNav.style.display = "none"; // Hide nav buttons when form is visible
+					rightNav.style.display = "none";
+				}
+			}
+	
+			// Reappear the form and nav buttons when scrolling up
+			if (formTopPosition < limit && form.style.display === "none" && !manuallyClosed) {
+				form.style.display = "block";
+				leftNav.style.display = "none";
+				rightNav.style.display = "none";
+			}
+		});
+	
+		// Close button functionality
+		closeButton.addEventListener("click", () => {
+			manuallyClosed = true; // Set the manually closed flag
+			form.style.display = "none"; // Permanently hide the form
+			leftNav.style.display = "block"; // Ensure nav buttons reappear
+			rightNav.style.display = "block";
+		});
+	</script>
+	
 </body>
 
 </html>
