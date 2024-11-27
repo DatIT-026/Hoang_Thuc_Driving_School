@@ -50,32 +50,67 @@
 								<span onclick="document.getElementById('id01').style.display='none'" class="close5"
 									title="Close5 Modal5">&times;</span>
 								<label for="Name" style="color: #1b1a1a">Họ và Tên:</label>
-								<input type="text" id="Name" name="Name" placeholder="Nhập họ và tên của bạn" required style="color: black;text-shadow: 0 0 #000000;font-family: system-ui;">
+								<input type="text" id="Name" name="Name" placeholder="Nhập họ và tên của bạn" required
+									style="color: black;text-shadow: 0 0 #000000;font-family: system-ui;">
 
 								<label for="Phone_Number" style="color: #1b1a1a">Số Điện Thoại:</label>
-								<input type="tel" id="Phone_Number" name="Phone_Number" placeholder="Nhập số điện thoại của bạn" required style="color: black;text-shadow: 0 0 #000000;font-family: system-ui;">
+								<div style="display: flex; align-items: center; gap: 5px;">
+									<select id="Country_Code" name="Country_Code" required
+										style="width: 75px; padding: 10px;">
+										<option value="+84 (Viet Nam)" selected>+84 (VN)</option>
+										<option value="+1 (United States)">+1 (US)</option>
+										<option value="+44 (United Kingdom)">+44 (UK)</option>
+										<option value="+91 (India)">+91 (IN)</option>
+									</select>
+									<input type="tel" id="Phone_Number" name="Phone_Number"
+										placeholder="Nhập số điện thoại" required style="flex: 1; padding: 10px;">
+								</div>
 
 								<label for="Place" style="color: #1b1a1a">Nơi ở:</label>
 								<select id="Place" name="Place" placeholder="Chọn nơi ở của bạn" required>
 									<option value="" disabled selected>Chọn nơi ở của bạn!</option>
-									<option value="Thu_Duc" style="color: black;text-shadow: 0 0 #000000;font-family: system-ui;">Thủ Đức</option>
-									<option value="Di_An" style="color: black;text-shadow: 0 0 #000000;font-family: system-ui;">Dĩ An</option>
-									<option value="Bien_Hoa" style="color: black;text-shadow: 0 0 #000000;font-family: system-ui;">Biên Hoà</option>
-									<option value="Others" style="color: black;text-shadow: 0 0 #000000;font-family: system-ui;">Khác</option>
+									<option value="Thu Duc"
+										style="color: black;text-shadow: 0 0 #000000;font-family: system-ui;">Thủ Đức
+									</option>
+									<option value="Di An"
+										style="color: black;text-shadow: 0 0 #000000;font-family: system-ui;">Dĩ An
+									</option>
+									<option value="Bien Hoa"
+										style="color: black;text-shadow: 0 0 #000000;font-family: system-ui;">Biên Hoà
+									</option>
+									<option value="Others"
+										style="color: black;text-shadow: 0 0 #000000;font-family: system-ui;">Khác
+									</option>
 								</select>
 
 								<label for="Course" style="color: #1b1a1a">Chọn Hạng Bằng:</label>
 								<select id="Course" name="Course">
 									<option value="#" disabled selected>Chọn hạng bằng bạn muốn đăng ký!
 									</option>
-									<option value="A1" style="color: black;text-shadow: 0 0 #000000;font-family: system-ui;">Hạng A1</option>
-									<option value="A2" style="color: black;text-shadow: 0 0 #000000;font-family: system-ui;">Hạng A2</option>
-									<option value="B1" style="color: black;text-shadow: 0 0 #000000;font-family: system-ui;">Hạng B1</option>
-									<option value="B2" style="color: black;text-shadow: 0 0 #000000;font-family: system-ui;">Hạng B2</option>
-									<option value="C" style="color: black;text-shadow: 0 0 #000000;font-family: system-ui;">Hạng C</option>
-									<option value="D" style="color: black;text-shadow: 0 0 #000000;font-family: system-ui;">Hạng D</option>
-									<option value="E" style="color: black;text-shadow: 0 0 #000000;font-family: system-ui;">Hạng E</option>
-									<option value="FC" style="color: black;text-shadow: 0 0 #000000;font-family: system-ui;">Hạng FC</option>
+									<option value="A1"
+										style="color: black;text-shadow: 0 0 #000000;font-family: system-ui;">Hạng A1
+									</option>
+									<option value="A2"
+										style="color: black;text-shadow: 0 0 #000000;font-family: system-ui;">Hạng A2
+									</option>
+									<option value="B1"
+										style="color: black;text-shadow: 0 0 #000000;font-family: system-ui;">Hạng B1
+									</option>
+									<option value="B2"
+										style="color: black;text-shadow: 0 0 #000000;font-family: system-ui;">Hạng B2
+									</option>
+									<option value="C"
+										style="color: black;text-shadow: 0 0 #000000;font-family: system-ui;">Hạng C
+									</option>
+									<option value="D"
+										style="color: black;text-shadow: 0 0 #000000;font-family: system-ui;">Hạng D
+									</option>
+									<option value="E"
+										style="color: black;text-shadow: 0 0 #000000;font-family: system-ui;">Hạng E
+									</option>
+									<option value="FC"
+										style="color: black;text-shadow: 0 0 #000000;font-family: system-ui;">Hạng FC
+									</option>
 								</select>
 								<p style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
 										   font-style: italic; 
@@ -478,15 +513,29 @@
 						<input type="text" id="Name" name="Name" placeholder="Nhập họ và tên của bạn" required>
 
 						<label for="Phone_Number">Số Điện Thoại:</label>
-						<input type="tel" id="Phone_Number" name="Phone_Number" placeholder="Nhập số điện thoại của bạn" required>
+						<div style="display: flex; align-items: center; gap: 5px;">
+							<select id="Country_Code" name="Country_Code" required style="width: 75px; padding: 10px;">
+								<option value="+84 (Viet Nam)" selected>+84 (VN)</option>
+								<option value="+1 (United States)">+1 (US)</option>
+								<option value="+44 (United Kingdom)">+44 (UK)</option>
+								<option value="+91 (India)">+91 (IN)</option>
+							</select>
+							<input type="tel" id="Phone_Number" name="Phone_Number" placeholder="Nhập số điện thoại"
+								required style="flex: 1; padding: 10px;">
+						</div>
+
 
 						<label for="Place">Nơi ở:</label>
 						<select id="Place" name="Place" placeholder="Chọn nơi ở của bạn" required>
 							<option value="#" disabled selected>Chọn nơi ở của bạn!</option>
-							<option value="Thu_Duc" style="color: black;text-shadow: 0 0 #000000;font-family: system-ui;">Thủ Đức</option>
-							<option value="Di_An" style="color: black;text-shadow: 0 0 #000000;font-family: system-ui;">Dĩ An</option>
-							<option value="Bien_Hoa" style="color: black;text-shadow: 0 0 #000000;font-family: system-ui;">Biên Hoà</option>
-							<option value="Others" style="color: black;text-shadow: 0 0 #000000;font-family: system-ui;">Khác</option>
+							<option value="Thu Duc"
+								style="color: black;text-shadow: 0 0 #000000;font-family: system-ui;">Thủ Đức</option>
+							<option value="Di An" style="color: black;text-shadow: 0 0 #000000;font-family: system-ui;">
+								Dĩ An</option>
+							<option value="Bien Hoa"
+								style="color: black;text-shadow: 0 0 #000000;font-family: system-ui;">Biên Hoà</option>
+							<option value="Others"
+								style="color: black;text-shadow: 0 0 #000000;font-family: system-ui;">Khác</option>
 						</select>
 
 
@@ -494,14 +543,22 @@
 						<select id="Course" name="Course">
 							<option value="" disabled selected>Chọn hạng bằng bạn muốn đăng ký!
 							</option>
-							<option value="A1" style="color: black;text-shadow: 0 0 #000000;font-family: system-ui;">Hạng A1</option>
-							<option value="A2" style="color: black;text-shadow: 0 0 #000000;font-family: system-ui;">Hạng A2</option>
-							<option value="B1" style="color: black;text-shadow: 0 0 #000000;font-family: system-ui;">Hạng B1</option>
-							<option value="B2" style="color: black;text-shadow: 0 0 #000000;font-family: system-ui;">Hạng B2</option>
-							<option value="C" style="color: black;text-shadow: 0 0 #000000;font-family: system-ui;">Hạng C</option>
-							<option value="D" style="color: black;text-shadow: 0 0 #000000;font-family: system-ui;">Hạng D</option>
-							<option value="E" style="color: black;text-shadow: 0 0 #000000;font-family: system-ui;">Hạng E</option>
-							<option value="FC" style="color: black;text-shadow: 0 0 #000000;font-family: system-ui;">Hạng FC</option>
+							<option value="A1" style="color: black;text-shadow: 0 0 #000000;font-family: system-ui;">
+								Hạng A1</option>
+							<option value="A2" style="color: black;text-shadow: 0 0 #000000;font-family: system-ui;">
+								Hạng A2</option>
+							<option value="B1" style="color: black;text-shadow: 0 0 #000000;font-family: system-ui;">
+								Hạng B1</option>
+							<option value="B2" style="color: black;text-shadow: 0 0 #000000;font-family: system-ui;">
+								Hạng B2</option>
+							<option value="C" style="color: black;text-shadow: 0 0 #000000;font-family: system-ui;">Hạng
+								C</option>
+							<option value="D" style="color: black;text-shadow: 0 0 #000000;font-family: system-ui;">Hạng
+								D</option>
+							<option value="E" style="color: black;text-shadow: 0 0 #000000;font-family: system-ui;">Hạng
+								E</option>
+							<option value="FC" style="color: black;text-shadow: 0 0 #000000;font-family: system-ui;">
+								Hạng FC</option>
 						</select>
 						<p
 							style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-style: italic; font-size: medium; color: red; margin: 0.5em 0.5em 0.5em 0.5em;">
