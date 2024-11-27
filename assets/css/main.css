@@ -2826,7 +2826,7 @@ button.small,
 /* Wrapper */
 
 .wrapper {
-	padding: 5em 0 3em 0;
+	padding: 3em 0 0.5px 0;
 }
 
 .wrapper.style1 {
@@ -3388,7 +3388,6 @@ button.small,
 	header.major p {
 		top: 0;
 		margin-top: 1.25em;
-		font-size: 10px;
 	}
 
 	/* Menu */

@@ -1,0 +1,182 @@
+.exam-centers {
+    margin: 10px 0;
+    padding: 0;
+    list-style: none;
+}
+
+.exam-centers li {
+    margin-bottom: 8px;
+    padding-left: 20px;
+    text-indent: -10px;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #333;
+}
+
+.box.post .inner {
+    margin-left: 70px;
+    margin-right: 50px;
+}
+
+.box.post .inner h3 {
+    text-align: left;
+    margin-bottom: 10px;
+    color: #222;
+}
+
+.box.post .inner p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+}
+
+.box.post .inner li {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+}
+
+@media screen and (max-width: 1680px) {
+
+    .container {
+        width: 1200px;
+    }
+
+}
+
+@media screen and (max-width: 1280px) {
+    .container {
+        width: 1200px;
+    }
+
+    .wrapper {
+        padding: 30px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+
+    .container {
+        width: 95%;
+        font-size: 15px;
+    }
+
+    .box.post .inner p {
+        font-size: 15px;
+    }
+
+    .box.post .inner li {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 840px) {
+
+    .container {
+        width: 95%;
+    }
+
+    .box.post .inner p {
+        font-size: 15px;
+    }
+
+    .box.post .inner li {
+        font-size: 15px;
+    }
+
+    .specialOffer {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 736px) {
+
+    .container {
+        width: 90%;
+    }
+
+    .box.post .inner p {
+        font-size: 15px;
+    }
+
+    .box.post .inner li {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .container {
+        width: 100%;
+    }
+
+    .box.post .inner li {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    .container {
+        width: 100%;
+    }
+
+    .box.post .inner p {
+        font-size: 15px;
+    }
+
+    .box.post .inner li {
+        font-size: 15px;
+    }
+    .box.post .inner li {
+        font-size: 12px;
+    }
+}
+
+/* General Styling */
+.specialOffer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 20px 0;
+}
+
+.specialOffer p {
+    margin: 0;
+}
+
+/* Block1 (Left Side) */
+.specialOffer .block1 {
+    text-align: left;
+}
+
+/* Block2 (Right Side) */
+.specialOffer .block2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* Ensures equal spacing between lines */
+    text-align: left;
+}
+
+/* address */
+.about-exam-centers {
+    margin: 10px 0;
+    padding: 0;
+    list-style: none;
+}
+
+.about-exam-centers li {
+    margin-bottom: 8px;
+    padding-left: 20px;
+    text-indent: -10px;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #333;
+}
+
+.about-exam-centers li::before {
+    content: "📍";
+    margin-right: 8px;
+    color: #007bff;
+}
