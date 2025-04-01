@@ -14,7 +14,6 @@ h3,
 h4,
 h5,
 h6,
-p,
 blockquote,
 pre,
 a,
@@ -2076,7 +2075,7 @@ header.major {
 }
 
 header.major h2 {
-	font-size: 2.25em;
+	font-size: 1.75em;
 }
 
 header.major p {
