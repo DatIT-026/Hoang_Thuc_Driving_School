@@ -1,4 +1,4 @@
-# Hoang Thuc Driving Training and Enrollment Center
+# Hoang Thuc Driving School Registration
 
 ## Introduction
 A website designed to manage driving school operations effectively.
@@ -27,10 +27,10 @@ You can view online demo [here](https://datit-026.github.io/Hoang_Thuc_Driving_S
 
 ## Copyright & Disclaimer
 Unauthorized or unlawful use of this application is strictly prohibited. Any misuse may lead to severe legal action in accordance with applicable laws and regulations.
-### Copyright ©️ by Trung Tâm Tiếp Nhận Hồ Sơ Lái Xe Hoàng Thực. 
+### Copyright ©️ by Văn Phòng Ghi Danh Đào Tạo Lái Xe Hoàng Thực. 
 
-Powered by [FireHelper Team](https://www.facebook.com/hanguyentiendat2006).
+Powered by [FireHelper Team](https://datit-026.github.io/dattos-archive/).
 
-This project is licensed under the [MIT License](LICENSE).
+[MIT License](LICENSE).
 
 
